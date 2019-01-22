@@ -1843,6 +1843,9 @@ Usage (In Ghost editor):
     align-items: center;
     max-width: 920px;
 }
+.post-content * {
+    max-width: 920px;
+}
 
 .post-template .post-content > p:first-child {
     font-size: 1.25em;
@@ -2249,6 +2252,7 @@ Usage (In Ghost editor):
 
 .site-footer-nav {
     display: flex;
+    text-align: center;
 }
 
 .site-footer-nav a {
