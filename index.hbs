@@ -28,7 +28,7 @@ into the {body} of the default.hbs template --}}
             {{> "csc-intro"}}
 
             {{#foreach posts}}
-                {{^has tag="charters,tools"}}
+                {{^has tag="charters,tools,testers"}}
                     {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
                     {{> "post-card"}}
                 {{/has}}
